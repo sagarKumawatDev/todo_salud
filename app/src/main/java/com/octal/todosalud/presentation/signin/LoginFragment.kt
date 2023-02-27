@@ -108,6 +108,9 @@ class LoginFragment : Fragment() {
                     when {
                         it.value.success && it.value.data?.isEmailVerified ==true -> {
                             //Navigate
+
+
+
                         }
                         else -> {
                             hideProgress()
