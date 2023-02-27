@@ -1791,6 +1791,7 @@ of this medicine?</string>
     <string name="recurring_desc">At this time, recurring purchase is not available for this product presentation.</string>
     <string name="email_field_empty">The email field is empty.</string>
     <string name="enter_valid_email_id">Enter a valid email address</string>
+    <string name="enter_email_id">Enter a email address</string>
     <string name="password_field_empty">empty password field</string>
     <string name="some_fields_are_empty">Some fields are empty</string>
     <string name="choose_option">choose an option</string>

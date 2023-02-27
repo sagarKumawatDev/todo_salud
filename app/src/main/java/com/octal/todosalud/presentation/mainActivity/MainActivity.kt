@@ -42,7 +42,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        viewModel.callApi()
         navigationController =
             (supportFragmentManager.findFragmentById(R.id.fragmentContainerView) as NavHostFragment).navController
         observeAppEvents()
@@ -67,7 +66,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun performLogin() {
-        viewModel.userLoggedIn()
+
     }
 
     private fun internetConnectionHandle(){

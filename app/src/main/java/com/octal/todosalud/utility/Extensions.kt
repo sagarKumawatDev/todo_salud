@@ -25,4 +25,17 @@ fun Fragment.hideProgress() {
 }
 
 
+fun String?.defaultOnNullValue(): String = this ?: ""
+fun String?.onEmptyOrNull(replaceString: String): String = if (this.isNullOrEmpty()) {
+    replaceString
+} else {
+    this
+}
+
+fun Int?.defaultOnNullValue(): Int = this ?: 0
+fun Double?.defaultOnNullValue(): Double = this ?: 0.0
+fun Float?.defaultOnNullValue(): Float = this ?: 0.0f
+fun Boolean?.defaultOnNullValue(): Boolean = this ?: false
+fun <T> List<T>?.defaultOnNullValue(): List<T> = this ?: emptyList()
+
 

@@ -1,5 +1,7 @@
 package com.octal.todosalud.utility.extensions
 
+import android.view.View
+import android.widget.TextView
 import android.widget.Toast
 import androidx.annotation.IdRes
 import androidx.appcompat.app.AlertDialog
@@ -43,4 +45,14 @@ fun Fragment.findNavControllerById(@IdRes id: Int): NavController {
 
 fun Fragment.getTodoAppNavController(): NavController? =
     (this.activity?.supportFragmentManager?.findFragmentById(R.id.fragmentContainerView) as NavHostFragment?)?.navController
+
+fun Fragment.showValidationDialog(){
+    val dialogBuilder = android.app.AlertDialog.Builder(this.requireContext()).create()
+    val inflater = layoutInflater
+    val dialogView: View = inflater.inflate(R.layout.input_field_dialog, null)
+    val doneClick = dialogView.findViewById<TextView>(R.id.tryAgain)
+    dialogBuilder.setView(dialogView)
+    dialogBuilder.show()
+    doneClick.setOnClickListener { dialogBuilder.dismiss() }
+}
 
