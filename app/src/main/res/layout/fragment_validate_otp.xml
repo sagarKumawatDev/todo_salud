@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary"
+    android:fitsSystemWindows="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/imageArrowBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:onClick="@{listener::onClick}"
+        android:padding="@dimen/_15sdp"
+        android:src="@drawable/ic_back_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/colorBlack" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/welcomeBackText"
+        style="@style/GilroySemiBold"
+        android:drawablePadding="@dimen/_5sdp"
+        android:padding="8dp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="@string/otp_verification"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/_18ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageArrowBack" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/loginWithSocialText"
+        style="@style/GilroyRegular"
+        android:drawablePadding="@dimen/_5sdp"
+        android:gravity="center"
+        android:text="@string/otp_message"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/_12ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeBackText" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/emailTexView"
+        style="@style/GilroyRegular"
+        android:drawablePadding="@dimen/_5sdp"
+        android:gravity="center"
+        android:textColor="@color/color_blue_text"
+        android:textSize="@dimen/_12ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginWithSocialText" />
+
+    <com.chaos.view.PinView
+        android:id="@+id/otpPinView"
+        style="@style/PinWidget.PinView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:cursorVisible="true"
+        android:focusable="true"
+        android:inputType="number"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/_25ssp"
+        app:itemCount="4"
+        app:itemHeight="@dimen/_52sdp"
+        app:itemRadius="8dp"
+        app:itemSpacing="@dimen/_20sdp"
+        app:itemWidth="@dimen/_52sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailTexView"
+        app:lineColor="@color/color_blue_text"
+        app:lineWidth="2dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/expireIn"
+        style="@style/GilroyRegular"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:drawablePadding="@dimen/_5sdp"
+        android:gravity="center"
+        android:text="@string/expiring_in"
+        android:textColor="#FF981A"
+        android:textSize="@dimen/_12ssp"
+        app:layout_constraintStart_toStartOf="@+id/otpPinView"
+        app:layout_constraintTop_toBottomOf="@+id/otpPinView" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/resendOtp"
+        style="@style/GilroyRegular"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:drawablePadding="@dimen/_5sdp"
+        android:gravity="center"
+        android:onClick="@{listener::onClick}"
+        android:text="@string/resendOtp"
+        android:visibility="invisible"
+        android:textColor="@color/blue_text_color"
+        android:textSize="@dimen/_12ssp"
+        app:layout_constraintEnd_toEndOf="@+id/otpPinView"
+        app:layout_constraintTop_toBottomOf="@+id/otpPinView" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/verifyButton"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_48sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:backgroundTint="@color/color_dark_blue_text"
+        android:fontFamily="@font/gilroy_semi_bold"
+        android:onClick="@{listener::onClick}"
+        android:text="@string/verify"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/_14ssp"
+        app:layout_constraintEnd_toEndOf="@+id/otpPinView"
+        app:layout_constraintStart_toStartOf="@+id/otpPinView"
+        app:layout_constraintTop_toBottomOf="@+id/resendOtp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.button.MaterialButton
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/accountOptionBtn"
+    style="@style/Widget.Material3.Button.OutlinedButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24"
+    android:drawableTint="@color/grey"
+    android:padding="13dp"
+    android:text="@string/sing_up_one_click"
+    android:textAlignment="textStart"
+    android:textColor="@color/grey"
+    app:cornerRadius="7dp"
+    app:strokeColor="@color/splash_background" />

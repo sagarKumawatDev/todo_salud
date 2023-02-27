@@ -1,0 +1,95 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+
+        <item name="colorSecondary">@color/colorAccent</item>
+
+    </style>
+
+    <style name="CapAlumnes" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="SplashScreenTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorWhite</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+
+
+    </style>
+    <style name="CropTheme" parent="Base.V7.Theme.AppCompat">
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+    <style name="GilroyBold">
+        <item name="fontFamily">@font/gilroy_bold</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/color_blue_text</item>
+    </style>
+
+    <style name="GilroyMedium">
+        <item name="fontFamily">@font/gilroy_medium</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/color_blue_text</item>
+    </style>
+
+    <style name="GilroyRegular">
+        <item name="fontFamily">@font/gilroy_regular</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColor">@color/color_blue_text</item>
+    </style>
+    <style name="GilroySemiBold">
+        <item name="fontFamily">@font/gilroy_semi_bold</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/color_blue_text</item>
+    </style>
+
+    <style name="TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="fontFamily">@font/gilroy_semi_bold</item>
+        <item name="android:layout_height">@dimen/_48sdp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/_4sdp</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/_4sdp</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/_4sdp</item>
+        <item name="boxCornerRadiusTopStart">@dimen/_4sdp</item>
+        <item name="boxStrokeColor">@color/box_stroke_color</item>
+        <item name="hintTextColor">@color/colorBlack</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="android:textColorHint">@color/hintColor</item>
+        <item name="passwordToggleDrawable">@drawable/password_toggle</item>
+    </style>
+
+
+    <style name="StyleForColorAccent">
+        <item name="colorAccent">@color/blue_text_color</item>
+    </style>
+</resources>

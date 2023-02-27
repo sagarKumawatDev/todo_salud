@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">Todo Salud</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="space">" "</string>
+    <string name="metros" >Metros</string>
+    <string name="Intensidad" >Intensidad(1-10)</string>
+    <string name="mgdl" >mg/dl</string>
+    <string name="lpm" >lpm</string>
+    <string name="lbs" >lbs</string>
+    <string name="mmHg" >mmHg</string>
+    <!--BOTTOM NAVIGATION HOME PAGE-->
+    <string name="label_remove">Remove</string>
+    <string name="label_notification">Notification</string>
+    <string name="label_download">Download</string>
+
+    <string name="label_full_name">Nombre completo</string>
+    <string name="label_email">Correo electrónico</string>
+    <string name="label_password">Contraseña</string>
+    <string name="label_re_password">Escriba la contraseña otra vez</string>
+    <string name="label_phone">Número de teléfono</string>
+    <string name="label_login">Acceso</string>
+    <string name="label_signup">Inscribirse</string>
+    <string name="label_not_here">¿Aqui no?</string>
+    <string name="label_already_have">¿Ya tienes una cuenta?</string>
+    <string name="label_new_password">Nueva contraseña</string>
+    <string name="label_old_password">Viejo contraseña</string>
+    <string name="label_confirm_password">confirmar Contraseña</string>
+    <string name="label_confirm_new_password">confirmar Nueva Contraseña</string>
+    <string name="label_forgot_password">Has olvidado tu contraseña</string>
+    <string name="label_forgot_password_q">¿Has olvidado tu contraseña?</string>
+    <string name="label_reset_password">Restablecer la contraseña</string>
+    <string name="label_send">Enviar</string>
+
+    //on boarding screen
+    <string name="on_boarding_one_description_string_one">Estamos para ayudarte a organizar todo lo que tenga que ver con tu salud, totalmente Gratis</string>
+    <string name="on_boarding_one_description_string_two">GRATIS</string>
+    <string name="on_boarding_two_description_string">Estamos para ayudarte a organizar todo lo que tenga que ver con tu salud, totalmente Gratis</string>
+    <string name="on_boarding_three_description_string">Te avisaremos cuando tengas que tomar tus medicamentos, acudir a citas con el médico o actualizar tus controles</string>
+    <string name="on_boarding_four_description_string">Compra y recibe cómodamente tus medicamentos en casa. Control de dosis y recetas en un solo lugar</string>
+    <string name="on_boarding_five_description_string">Lleve un registro de sus indicadores de salud más importantes. vea las tendencias y compártalas con su médico</string>
+    <string name="on_boarding_six_description_string">Y para cerrar el círculo, incluye a tu familia, médicos y seguros</string>
+    <string name="on_boarding_seven_description_string">Y para cerrar el círculo, incluye a tu familia, médicos y seguros</string>
+    <string name="on_boarding_one_heading_string">¡Bienvenidos a Todo Salud!</string>
+    <string name="on_boarding_two_heading_string">Gestión de medicamentos</string>
+    <string name="on_boarding_three_heading_string">Lleve un registro de los signos vitales</string>
+    <string name="on_boarding_four_heading_string">Iniciar nuevos hábitos</string>
+    <string name="on_boarding_five_heading_string">Almacenar documentos en un solo lugar</string>
+    <string name="on_boarding_six_heading_string">Conéctese con su médico</string>
+    <string name="on_boarding_seven_heading_string">Conviértete en el cuidador de un ser querido</string>
+
+    //login
+    <string name="login_email">Correo electrónico</string>
+    <string name="login_password">Contraseña</string>
+    <string name="login_enter">INGRESAR</string>
+    <string name="login_forgot_password">Olvidé mi contraseña</string>
+    <string name="login_register">Quiero registrarme</string>
+    <string name="login_continue_without_registration">Continuar sin registro</string>
+    <string name="login_credentials_error_popup_heading">Revisar credenciales</string>
+    <string name="login_credentials_error_popup_content">El correo electrónico o la contraseña no coinciden. Intentar nuevamente.</string>
+    <string name="login_credentials_error_popup_accept">Aceptar</string>
+    <string name="login_forgot_password_write_the_registered_email">Escriba el correo electrónico registrado</string>
+    <string name="login_forgot_password_request_password_change">Solicitar cambio de contraseña</string>
+    <string name="login_forgot_password_message_sent_popup_heading">Consultar su correo electrónico</string>
+    <string name="login_forgot_password_message_sent_popup_content">Se envió un correo electrónico con \ninstrucciones para cambiar \nsu contraseña.</string>
+    <string name="login_forgot_password_message_sent_popup_ok">OK</string>
+    <string name="login_no_registration_popup_heading">ADVERTENCIA</string>
+    <string name="login_no_registration_popup_content">Si continua sin registrarse, su información no tendrá copia de seguridad y se perderá con un cambio de teléfono o actualización.</string>
+    <string name="login_no_registration_popup_register">REGISTRARME</string>
+    <string name="login_no_registration_popup_register_small">Registrarme</string>
+    <string name="login_no_registration_popup_continue">CONTINUAR</string>
+
+    //register
+    <string name="register_registration_with_email">Registro con correo electrónico</string>
+    <string name="register_registration_with_facebook">Registro con Facebook</string>
+    <string name="register_registration_with_google">Registro con Google</string>
+    <string name="register_continue_without_registration">Continuar sin registro</string>
+    <string name="register_first_name">Nombre</string>
+    <string name="register_surname">Apellido</string>
+    <string name="register_back">Atrás</string>
+    <string name="register_continue">Continuar</string>
+    <string name="register_email">Correo electrónico</string>
+    <string name="register_select_your_sex">Seleccione su sexo</string>
+    <string name="register_male">Másculino</string>
+    <string name="register_female">Femenino</string>
+    <string name="register_birth_date">Fecha de nacimiento</string>
+    <string name="register_birth_date_alert">Algunas funcionalidades de esta app requieren que sea mayor de edad.</string>
+    <string name="register_problem_with_age_popup_heading">Problema con la edad</string>
+    <string name="register_problem_with_age_popup_content">Para usar esta app necesita tener por lo menos 18 años de edad.</string>
+    <string name="register_problem_with_age_popup_accept">ACEPTAR</string>
+    <string name="register_password">Contraseña</string>
+    <string name="register_verify_password">Verificar contraseña</string>
+    <string name="register_password_problem_popup_heading">Revisar contraseña</string>
+    <string name="register_password_problem_popup_content">Las contraseñas no coinciden. Por favor vuelvalas a escribir.</string>
+    <string name="register_password_problem_popup_accept">Aceptar</string>
+    <string name="register_privacy_policy_and_terms_and_conditions">Al presionar el botón “Registrarme”, usted confirma haber leído y aceptado nuestros Términos y Condiciones y Política de Privacidad.</string>
+    <string name="register_cancel_warning_popup_heading">¿Desea cancelar?</string>
+    <string name="register_cancel_warning_popup_content">Si cancela este proceso perderá los datos ingresados hasta ahora.</string>
+    <string name="register_cancel_warning_popup_cancel">CANCELAR</string>
+    <string name="register_cancel_warning_popup_continue">CONTINUAR</string>
+    <string name="register_validate_email_all_ready">¡Todo Listo!</string>
+    <string name="register_validate_email_content">Su registro se recibió exitosamente. Hemos enviado un correo electrónico a su dirección para verificar su cuenta de correo electrónico.
+
+Mientras tanto, ya puede empezar a  usar Todo Salud.</string>
+    <string name="register_validate_email_accept">Aceptar</string>
+
+    //bottom navigation bar
+    <string name="schedule">Agenda</string>
+    <string name="first_aid_kit">Botiquín</string>
+    <string name="to_buy">Comprar</string>
+    <string name="news">Noticias</string>
+    <string name="profile">Perfil</string>
+
+    //navigation menu
+    <string name="active_profile">PERFIL ACTIVO</string>
+    <string name="create_an_account">Crear una cuenta</string>
+    <string name="add_dependent">Agregar dependiente…</string>
+    <string name="add_caregiver">Agregar cuidador…</string>
+    <string name="directions_nit_and_payments">Direcciones, NIT y pagos</string>
+    <string name="set_up_my_family">Configurar a mi familia</string>
+    <string name="configure_notifications">Configurar notificaciones</string>
+    <string name="set_up_account">Configurar cuenta</string>
+    <string name="about_all_health">Acerca de Todo Salud</string>
+    <string name="recommend_this_app">Recomendar esta app</string>
+    <string name="log_out">Salir</string>
+    <string name="terms_and_conditions">Términos y condiciones</string>
+    <string name="privacy_policy">Política de privacidad</string>
+    <string name="see_welcome_again">Ver bienvenida otra vez</string>
+    <string name="personal_information_caps">INFORMACION PERSONAL</string>
+
+    //profile
+    <string name="general_information">Información general</string>
+    <string name="personal_information">Datos personales</string>
+    <string name="health_indicators">Indicadores de salud</string>
+    <string name="update_and_share_your_indicators">Actualice y comparta sus indicadores</string>
+    <string name="terms">Condiciones</string>
+    <string name="registration_of_health_conditions">Registro de condiciones de salud</string>
+    <string name="recipes">Recetas</string>
+    <string name="recipe">Receta</string>
+    <string name="prescriptions_prescribed_by_doctors">Prescripciones recetadas por doctores</string>
+    <string name="notes">Notas</string>
+    <string name="personal_record_of_comments">Registro personal de comentarios</string>
+    <string name="doctors">Médicos</string>
+    <string name="contact_details_of_your_doctors">Datos de contacto de sus doctores</string>
+    <string name="laboratories">Laboratorios</string>
+    <string name="archive_your_lab_results">Archive sus resultados de laboratorio</string>
+    <string name="insurance">Seguros</string>
+    <string name="data_of_your_insurance_policies">Datos de sus pólizas de seguro</string>
+    <string name="please_click_back_again_to_exit">Por favor, haga clic en VOLVER de nuevo para salir</string>
+    <string name="delete_this_result">Eliminar estos resultados</string>
+    <string name="delete_result_desc">Esta acción no es reversible, y eliminará estos resultados y sus vínculos.</string>
+    <string name="deletes">ELIMINAR</string>
+    <string name="startDate_end_date_">Debe haber una diferencia de 9 meses entre la fecha de inicio y la fecha de finalización estimada</string>
+    <string name="add_doctor_title">Compartir datos con doctor</string>
+    <string name="Yes">Sí</string>
+    <string name="NO">NO</string>
+    <string name="delete_this_doctor">Eliminar este doctor</string>
+    <string name="do_you_want_to_delete_this_doctor">¿Quieres eliminar a este doctor?</string>
+    <string name="delete_this_dependent">Borrar este dependiente</string>
+    <string name="current_version_android">La versión actual de su dispositivo Android no es compatible con esta función</string>
+
+    <string name="share_screenshot">Compartir captura de pantalla</string>
+    <string name="do_you_want_to_delete_this_note">¿Quieres borrar esta nota?</string>
+    <string name="note_delete_desc">Esta acción no es reversible y eliminará esta nota de forma permanente.</string>
+    <string name="edit_dependant">Editar dependiente</string>
+    <string name="delete_profile_heading">¿Desea eliminar este perfil?</string>
+    <string name="delete_profile_desc1">La información asociada a este perfil se eliminará. Esta acción no es reversible.</string>
+    <string name="delete_profile_desc2">Este perfil se eliminará de su cuenta, pero permanecerá en la cuenta que la compartió con usted originalmente.</string>
+
+    <string name="remove_dependant">Eliminar</string>
+    <string name="dont_remove_dependant">NO Eliminar</string>
+
+    //medicine
+    <string name="medicine_head">Botiquín</string>
+    <string name="medicine_default_desc">Controle su inventario de medicinas, existencias, y reciba alertas cuando necesite rellenar.</string>
+    <string name="medicine_default_but_text">Agregar una medicina</string>
+    <string name="currently_taking">TOMANDO ACTUALMENTE</string>
+    <string name="next">SIGUIENTE</string>
+    <string name="page_no">Paso 1 de 4</string>
+    <string name="page_no2">Paso 2 de 4</string>
+    <string name="page_no3">Paso 3 de 4</string>
+    <string name="page_no4">Paso 4 de 4</string>
+    <string name="purchased_above">MEDICAMENTOS COMPRADOS ANTERIORMENTE</string>
+    <string name="add_new_medicine">Agregar nuevo medicamento...</string>
+    <string name="register_new_medicine">Registrar nueva medicina</string>
+    <string name="add_medeicine_desc">La foto le ayudará a identificar mejor este producto en su botiquín.</string>
+    <string name="medicine_name">Nombre de medicina</string>
+    <string name="pharmaceutical_house">Casa farmacéutica</string>
+    <string name="required">Requerido</string>
+    <string name="name">Nombre</string>
+    <string name="presentation">Presentación</string>
+    <string name="quantity">Cantidad</string>
+    <string name="kind">Tipo</string>
+    <string name="medical_sample">Este producto es muestra médica</string>
+    <string name="dose_and_stock">Dosis y existencias</string>
+    <string name="inventory_in_hand">Inventario en mano</string>
+    <string name="indicated_dose">DOSIS INDICADA</string>
+    <string name="measure">Medida</string>
+    <string name="choose_one">Elija uno</string>
+    <string name="comments">COMENTARIOS</string>
+    <string name="where_you_bought">Lugar donde compró</string>
+    <string name="in_days">En días</string>
+    <string name="in_weeks">En semanas</string>
+    <string name="no_schedule">Sin horario</string>
+    <string name="schedule_tabs">¿En qué días?</string>
+    <string name="everyday">Todos</string>
+    <string name="additional_data">Datos adicionales</string>
+    <string name="which_doctor_suggested">¿QUE DOCTOR LE DEJO ESTA MEDICINA?</string>
+    <string name="doctor">Doctor</string>
+    <string name="why_take_this_medicine">¿PARA QUE TOMA ESTA MEDICINA?</string>
+    <string name="conditions">Condición(es)</string>
+    <string name="due_date">Fecha de vencimiento</string>
+    <string name="recurring_purchase">Compra recurrente</string>
+    <string name="more_information">Mas información</string>
+    <string name="less_information">menos información</string>
+    <string name="no_dose_programming">SIN PROGRAMACION DE DOSIS</string>
+    <string name="add">AGREGAR</string>
+    <string name="new_medicine">Nueva Medicina</string>
+
+    <string name="times_a_day">¿Cuántas veces al día?</string>
+    <string name="reminders">Recordatorios</string>
+    <string name="remove_all">Quitar todos</string>
+    <string name="select_all">Seleccionar todos</string>
+    <string name="starts">Inicia el</string>
+    <string name="ends_in">Termina en</string>
+    <string name="no_end_date">Sin fecha de finalización</string>
+    <string name="summary">Resumen</string>
+    <string name="dose">Dosis</string>
+    <string name="period">Periodo</string>
+    <string name="comments1">Comentarios</string>
+    <string name="associated_conditions">Condiciones asociadas</string>
+    <string name="who_prescribed">Doctor que recetó</string>
+    <string name="inventory">Inventario:</string>
+    <string name="expires">Vence:</string>
+    <string name="recurring_purchase_activated">Compra recurrente \nactivada</string>
+    <string name="dose_record">Registro de dosis</string>
+    <string name="remove_this_medicine">Eliminar esta medicina</string>
+    <string name="last_time">Última vez</string>
+    <string name="next_time">Siguiente vez</string>
+    <string name="inventorio">Inventario</string>
+    <string name="drink">Tomar</string>
+    <string name="share">Compartir</string>
+    <string name="share_with">Compartir con ..</string>
+    <string name="require_field_empty">El campo obligatorio está vacío</string>
+    <string name="what_do_you">¿Qué desea hacer con el inventario
+de esta medicina?</string>
+    <string name="shopping_at">Rellenar comprando en Todo Salud</string>
+    <string name="edit_inventory">Editar inventario</string>
+    <string name="cancel">Cancelar</string>
+    <string name="add_inventory">Agregar inventario</string>
+    <string name="inventory_units">UNIDADES DE NUEVO INVENTARIO</string>
+    <string name="units">Unidades</string>
+    <string name="unit">Unidad</string>
+    <string name="call">Llamada</string>
+    <string name="want_to_call">¿Desea llamar al número</string>
+    <string name="yes">SÍ</string>
+    <string name="no">NO</string>
+
+    <string name="delete_Lab_Appointment_title">Borrar cita</string>
+    <string name="delete_Lab_Appointment_content">¿Desea borrar esta cita de su agenda?</string>
+    <string name="no_delete">NO Borrar</string>
+    <string name="just_delete"> Borrar</string>
+    <string name="every_few_weeks">¿Cada cuantas semanas?</string>
+
+    //Pharmacy
+    <string name="pharmacy">Farmacia</string>
+    <string name="fill_medicine">Rellenar medicina</string>
+    <string name="buy_recipe">Comprar receta</string>
+    <string name="recurring_purchases">Compras recurrentes</string>
+    <string name="call_us">Llámenos</string>
+    <string name="puchase_history">Historial de compra</string>
+    <string name="description">Descripción</string>
+    <string name="size">Tamaño</string>
+    <string name="flavour">Sabor</string>
+    <string name="color">Color</string>
+    <string name="size1">Talla</string>
+    <string name="keep_a_copy">Guarde una copia de su receta.</string>
+    <string name="take_photo">Tome una foto de su receta y guardela en Todo Salud para consultarla cuando la necesite en la sección de recetas.</string>
+    <string name="add_to_first_aid_kit">Agregar a botiquín de</string>
+    <string name="add_to_truck">AGREGAR A CARRETILLA</string>
+    <string name="product_suggestion">Sugerencia de producto</string>
+    <string name="choose_medicine_refill">ELIJA UN MEDICAMENTO PARA RELLENAR</string>
+
+    //cart
+    <string name="cart">Carretilla</string>
+    <string name="total">Total</string>
+    <string name="continu">Continuar</string>
+
+    //Schedule
+    <string name="add_a_dose_or_medicine">Agregar una dosis o medicina</string>
+    <string name="add_an_appointment_with_a_doctor">Agregar cita con un doctor</string>
+    <string name="add_appointment_in_a_laboratory">Agregar cita en un laboratorio</string>
+    <string name="what_doctor_is_this_appointment">¿CON QUE DOCTOR ES ESTA CITA?</string>
+    <string name="to_choose">Elegir</string>
+    <string name="date_and_time">Fecha y hora</string>
+    <string name="remember_me">Recordarme</string>
+    <string name="commentary">COMENTARIO</string>
+    <string name="save">Guardar</string>
+    <string name="choose_doctor">Elegir doctor</string>
+    <string name="what_laboratory_is_this_appointment">¿CON QUE LABORATORIO ES ESTA CITA?</string>
+    <string name="laboratory">Laboratorio</string>
+    <string name="choose_laboratory">Elegir laboratorio</string>
+
+
+    <string name="first_name">1er nombre</string>
+    <string name="second_name">2do nombre</string>
+    <string name="optional">Opcional</string>
+    <string name="first_sur_name">1er Apellido</string>
+    <string name="second_sur_name">2do Apellido</string>
+    <string name="married_last_name">Apellido casada</string>
+    <string name="birth_date">Fecha nacimiento</string>
+    <string name="relationship">Relación</string>
+    <string name="add_caregiver_without_dot">Agregar cuidador</string>
+    <string name="registered_email">CORREO ELECTRONICO REGISTRADO</string>
+    <string name="who_will_it_take_care_of">¿A quién(es) cuidará?</string>
+    <string name="send_invitation">Enviar invitación</string>
+    <string name="assign_dependents">Asignar dependientes</string>
+    <string name="addresses_and_contact_for_shipping">DIRECCIONES Y CONTACTO PARA ENVIO</string>
+    <string name="add_address">Agregar dirección…</string>
+    <string name="bill_information">INFORMACION PARA FACTURA</string>
+    <string name="add_NIT">Agregar NIT…</string>
+    <string name="credit_cards">TARJETAS DE CREDITO</string>
+    <string name="add_credit_card">Agregar tarjeta de crédito…</string>
+    <string name="label_to_identify_this_address">ETIQUETA PARA IDENTIFICAR ESTA DIRECCION</string>
+    <string name="label">Etiqueta</string>
+    <string name="address_name">Nombre de la dirección</string>
+    <string name="delivery_data">DATOS DE ENTREGA</string>
+    <string name="department">Departamento</string>
+    <string name="municipality">Municipio</string>
+    <string name="zone">Zona</string>
+    <string name="direction">Dirección</string>
+    <string name="colony">Colonia</string>
+    <string name="telephone_contact">Teléfono de contacto</string>
+    <string name="special_instructions">INSTRUCCIONES ESPECIALES</string>
+    <string name="default_address">Dirección predeterminada</string>
+    <string name="save_this_address">Guardar esta dirección</string>
+    <string name="delete_this_address">Borrar este dirección</string>
+    <string name="do_you_want_to_delete_this_address">¿Desea eliminar esta dirección?</string>
+    <string name="this_action_is_not_reversible">Esta acción no es reversible.</string>
+    <string name="do_not_erase">NO BORRAR</string>
+    <string name="delete">BORRAR</string>
+    <string name="delete_news_item">¿Desea borrar este artículo?</string>
+    <string name="search">Buscar</string>
+    <string name="label_to_identify_these_data">ETIQUETA PARA IDENTIFICAR ESTOS DATOS</string>
+    <string name="name_of_this_data">Nombre de estos datos</string>
+    <string name="billing_data">DATOS DE FACTURACION</string>
+    <string name="nit">NIT</string>
+    <string name="valid_nit">Ingrese sólo números</string>
+    <string name="default_NIT">NIT predeterminado</string>
+    <string name="save_this_NIT">Guardar este NIT</string>
+    <string name="delete_this_NIT">Borrar este NIT</string>
+    <string name="credit_card">Tarjeta de crédito</string>
+    <string name="do_you_want_to_delete_this_credit_card">¿Desea eliminar esta tarjeta de crédito?</string>
+    <string name="identifier_for_this_card">Identificador para esta tarjeta</string>
+    <string name="select_the_type_of_card">SELECCIONE EL TIPO DE TARJETA</string>
+    <string name="name_on_card">Nombre en tarjeta</string>
+    <string name="card_number">No. tarjeta</string>
+    <string name="cvv">CVV</string>
+    <string name="number_behind_the_card">No. detrás de la tarjeta</string>
+    <string name="default_card">Tarjeta predeterminada</string>
+    <string name="save_this_card">Guardar esta tarjeta</string>
+    <string name="delete_this_card">Borrar esta tarjeta</string>
+    <string name="do_you_want_to_delete_this_name_and_nit">¿Desea eliminar este nombre y NIT?</string>
+    <string name="my_family">Mi familia</string>
+    <string name="members_of_my_family">MIEMBROS DE MI FAMILIA</string>
+    <string name="notifications">Notificacione</string>
+    <string name="own_account_notifications">NOTIFICACIONES DE CUENTA PROPIA</string>
+    <string name="reminder_to_take_medicine">Recordatorio para tomar medicina</string>
+    <string name="appointment_reminder">Recordatorio de citas</string>
+    <string name="update_health_indicators">Actualizar indicadores de salud</string>
+    <string name="news_and_tips">Noticias y tips</string>
+    <string name="offers_and_promotions">Ofertas y promociones</string>
+    <string name="dependent_notifications">NOTIFICACIONES DE DEPENDIENTES</string>
+    <string name="notification_of_doses_taken">Notificación de dosis tomada</string>
+    <string name="missed_dose_notification">Notificación de dosis saltada</string>
+    <string name="email">CORREO ELECTRONICO</string>
+    <string name="email_confirmed">Correo electrónico confirmado.</string>
+    <string name="change_account_password">Cambiar contraseña de cuenta</string>
+    <string name="social_accounts">CUENTAS SOCIALES</string>
+    <string name="link">VINCULAR</string>
+    <string name="Unlink">VINCULADO</string>
+    <string name="set_PIN">Configurar PIN</string>
+    <string name="write_your_new_password">ESCRIBA SU NUEVA CONTRASEÑA</string>
+    <string name="label_new">Nueva</string>
+    <string name="label_confirm">Otra vez</string>
+    <string name="label_current">Actual</string>
+    <string name="change_password">Cambiar la contraseña</string>
+    <string name="for_security_enter_your_current_password">POR SEGURIDAD INGRESE SU CONTRASEÑA ACTUALA</string>
+    <string name="activate_PIN">Activar PIN</string>
+    <string name="favorites">Favoritos</string>
+    <string name="article">Artículo</string>
+    <string name="reminder_to_update">Recordatorio para actualizar</string>
+    <string name="every_2_months">cada 2 meses</string>
+    <string name="indicators">Indicadores</string>
+    <string name="edit_list">Editar lista</string>
+    <string name="height">Altura</string>
+    <string name="time_trend">Tendencia en tiempo</string>
+    <string name="expressed_in_meters">Expresado en metros</string>
+    <string name="expressed_in_intensidad">Expresado en intensidad</string>
+    <string name="expressed_in_pulse">Expresado en atidos por minuto</string>
+    <string name="expressed_in_mg_dl">Expresado en mg/dl</string>
+    <string name="expressed_in_weight">Expresado en libras</string>
+    <string name="expressed_in_temp">Expresado en grados centígrados</string>
+    <string name="expressed_in_bp">Expresado en mmHg</string>
+    <string name="average">Promedio</string>
+    <string name="record">Historial</string>
+    <string name="headache">Dolor de cabeza</string>
+    <string name="pregnancy">Embarazo</string>
+    <string name="previous_pregnancies">Embarazos anteriores</string>
+    <string name="glucose">Glucosa</string>
+    <string name="weight">Peso</string>
+    <string name="blood_pressure">Presión arterial</string>
+    <string name="pulse">Pulso</string>
+    <string name="temperature">Temperatura</string>
+    <string name="entered_by_doctors">Ingresadas por doctores</string>
+    <string name="photographs">Fotografías</string>
+    <string name="list_of_prescriptions_entered_into_the_system_by_your_doctors">Listado de recetas ingresadas al sistema por su(s) doctor(es).</string>
+    <string name="list_of_photographs_of_recipes_entered_at_the_time_of_purchase">Listado de fotografías de recetas ingresadas a la hora de comprar.</string>
+    <string name="add_recipe_image">Agregar imagen de receta...</string>
+    <string name="recipe_details">Detalles de Receta</string>
+    <string name="date">Fecha</string>
+    <string name="medicines">Medicinas</string>
+    <string name="buy_these_products">Comprar estos productos</string>
+    <string name="relate_to_some_doctor">RELACIONAR CON ALGUN DOCTOR</string>
+    <string name="delete_this_note">Borrar esta nota</string>
+    <string name="title_field_is_mandatory">El campo título es obligatorio.</string>
+    <string name="note">Nota</string>
+    <string name="new_note">Nueva nota</string>
+    <string name="title_of_note">TITULO DE LA NOTA</string>
+    <string name="relate_with_some_condition">RELACIONAR CON ALGUNA CONDICION</string>
+    <string name="share_this_note_with_the_doctor">COMPARTIR ESTA NOTA CON EL DOCTOR</string>
+    <string name="choose">Elija</string>
+    <string name="contact_information">INFORMACION DE CONTACTO</string>
+    <string name="title">Título</string>
+    <string name="clinic_phone">Teléfono de clínica</string>
+    <string name="cell_phone">Teléfono celular</string>
+    <string name="clinics">CLINICA(S)</string>
+    <string name="conditions_associated_with_this_doctor">CONDICIONES ASOCIADAS A ESTE DOCTOR</string>
+    <string name="edit">Editar</string>
+    <string name="add_clinic">Agregar clínica...</string>
+    <string name="add_doctor">Agregar doctor</string>
+    <string name="add_doctor_dot">Agregar doctor…</string>
+    <string name="new_doctor">Nuevo doctor</string>
+    <string name="results">Resultados</string>
+    <string name="save_in_this_section_the_pdf_files_that_your_laboratory_sends_you">Guarde en esta sección los archivos PDF que su laboratorio le envía.</string>
+    <string name="add_results_file">Agregar archivo de resultados...</string>
+    <string name="add_the_data_of_the_laboratories_you_visit_for_your_exams">Agregue los datos de los laboriatorios que visita para sus exámenes.</string>
+    <string name="add_lab">Agregar laboratorio...</string>
+    <string name="general_exam_data">DATOS GENERALES DEL EXAMEN</string>
+    <string name="exam_label">Etiqueta de examen</string>
+    <string name="general_exams">Examenes generales</string>
+    <string name="provider">Proveedor</string>
+    <string name="what_doctor_requested_this_exam">¿QUE DOCTOR LE SOLICITO ESTE EXAMEN?</string>
+    <string name="what_condition_was_this_exam_performed">¿PARA QUE CONDICION SE REALIZO ESTE EXAMEN?</string>
+    <string name="select_file">Seleccione archivo</string>
+    <string name="edit_these_results">Editar estos resultados</string>
+    <string name="delete_these_results">Eliminar estos resultados</string>
+    <string name="general_laboratory_data">DATOS GENERALES DEL LABORATORIO</string>
+    <string name="enter_your_PIN">Ingrese su PIN</string>
+    <string name="skip_the_shot">Saltar la toma</string>
+    <string name="take_after">Tomar después</string>
+    <string name="choose_how_long_you_want_it_to_be_reminded_to_take_this_medicine">Eliga dentro de cuánto tiempo desea que se le recuerde tomar esta medicina</string>
+    <string name="five_minutes">5 minutos</string>
+    <string name="fifteen_minutes">15 minutos</string>
+    <string name="thirty_minutes">30 minutos</string>
+    <string name="one_hour">1 hora</string>
+    <string name="two_hour">2 horas</string>
+    <string name="edit_appointment">Editar cita</string>
+    <string name="add_agenda_phone">Agregar agenda teléfono</string>
+    <string name="remember">Recordar</string>
+    <string name="no_reminders_generated">No se generarán recordatorios.</string>
+    <string name="no_reminders_generated_msg">Esta opción es para cuando el médico recomendó tomar o aplicar la medicina a discreción del paciente.</string>
+    <string name="condtions_title">Condiciones</string>
+    <string name="add_condition">Agregar condición...</string>
+    <string name="tablet_count">10 Tableta (s)</string>
+    <string name="confirm">Confirmar</string>
+    <string name="details">Detalles</string>
+    <string name="text_header">Rellenar Medicina</string>
+
+    <string name="what_with_doctor">¿PARA QUE VA CON ESTE DOCTOR</string>
+    <string name="recurring">Compra recurrente no disponible</string>
+    <string name="recurring_desc">Por el momento, la compra recurrente no está disponible para esta presentación de producto.</string>
+    <string name="email_field_empty">El campo de correo electrónico está vacío.</string>
+    <string name="enter_valid_email_id">Introduzca una dirección de correo electrónico válida</string>
+    <string name="password_field_empty">Campo de contraseña vacía</string>
+    <string name="some_fields_are_empty">Algunos campos están vacíos</string>
+    <string name="choose_option">Escoge una opción</string>
+    <string name="enter_4digit_pin">Escriba un PIN  de 4 dígitos que sea fácil de recordar para usted.</string>
+    <string name="safe_4digit">Guárdelo en un lugar seguro porque se le solicitará cada vez que ingrese al app</string>
+    <string name="enter_ur_pin">Escriba su PIN</string>
+    <string name="enter_pin_again">Otra vez</string>
+    <string name="pin_mismatch">PIN no coincide</string>
+    <string name="pin_created_successfully">PIN creado con éxito</string>
+    <string name="update_pin">Actualizar PIN</string>
+    <string name="create_pin">Crear PIN</string>
+    <string name="enter_current_pin">Escriba su PIN actual</string>
+    <string name="enter_new_pin">Escriba su nuevo PIN</string>
+    <string name="enter_pin_agains">Escriba su PIN nuevamente</string>
+    <string name="current_pin_is_incorrect">El pin actual es incorrecto</string>
+    <string name="pin_update_successfully">PIN actualizado correctamente.</string>
+    <string name="wrong_pin">PIN es incorrecto</string>
+    <string name="warning_forgot_pin_desc">ara reiniciar su PIN, deberá reiniciar la contraseña de su cuenta, y volver a iniciar sesión.
+
+Por su seguridad, los datos de su tarjetas de crédito serán eliminados.</string>
+    <string name="remove_appointment_from_agenda">Quitar esta cita de mi agenda</string>
+    <string name="warning_forgot_pin">ADVERTENCIA</string>
+    <string name="restart_pin">Reiniciar PIN</string>
+    <string name="pin_doesnot_match">The pin entered does not match. Please, try again.</string>
+    <string name="server_id">173711176671-dh0i61fate2ha2lbpnqqhk6a465krnlc.apps.googleusercontent.com</string>
+    <string name="invalid_file">Archivo inválido</string>
+    <string name="You_made_no_change">No has realizado cambios</string>
+    <string name="emai_not_confirmed">Su correo electrónico no ha sido confirmado aún. Para enviar un correo de verificación nuevamente</string>
+    <string name="click_to_confirm_email">  PRESIONE AQUI.</string>
+    //commen
+    <string name="Unexpected_error">Error inesperado</string>
+    <string name="done">Listo</string>
+    <string name="pharmacies">Farmacias</string>
+    <string name="valid_data">Por favor, introduzca datos válidos</string>
+    <string name="input_field_required_validation">Por favor asegúrese de ingresar todos los campos requeridos.</string>
+    <string name="input_field_required_title_validation">Campos incompletos</string>
+    <string name="input_field_required_try_again">Intentar de nuevo</string>
+    <string name="need_permission">Necesita permisos</string>
+    <string name="need_permission_desc">Esta aplicación necesita algunos permisos para usar esta función. Puede otorgarlos en la configuración de la aplicación.</string>
+    <string name="goto_settings">IR A LA CONFIGURACIÓN</string>
+    <string name="email_not_verified">Correo electrónico no verificado</string>
+    <string name="yo">Yo</string>
+    <string name="under_care">bajo cuidado</string>
+    <string name="create_condition">Agregar condición</string>
+    <string name="condition_name">Nombre de la condición</string>
+    //medicine chest
+    <string name="delete_this_medicine">¿Está seguro de que desea eliminar este medicamento?</string>
+    <string name="delete_this_medicine_content">Se eliminarán todos los inventarios y las dosis futuras asociadas a este medicamento.</string>
+    <string name="vendor_not_found">Vendedor no encontrado.</string>
+    <string name="to_add_vendor">Para agregarlo, seleccione el botón "Listo" en la esquina superior derecha.</string>
+    <string name="enter_valid_date">Introduzca una fecha válida</string>
+    <string name="you_cannot_select_date">No puede elegir esta fecha como la fecha de inicio. Si desea comenzar en esta fecha, cambie los días seleccionados.</string>
+    <string name="you_cannot_select_end">No puede elegir esta fecha como la fecha de finalización. La fecha de finalización debe ser igual o mayor que la fecha de inicio.</string>
+    <string name="doctor_prescription_need">Receta médica enviada</string>
+    <string name="reason">"Su receta está siendo procesada. Le avisaremos cuando esta haya sido aprobada. Este proceso tarda normalmente unos minutos. "</string>
+    <string name="take_prescription_pic">Tomar foto de receta</string>
+    <string name="select_prescription">" selecciona tu receta"</string>
+    <string name="not_approved">Receta no aprobada</string>
+    <string name="approved">Receta aprobada</string>
+    <string name="continue_purchase">Ya puede continuar con la compra de este producto.</string>
+    <string name="prescription_sent">Prescripción del médico enviada</string>
+    <string name="processing">Su receta está siendo procesada. Le haremos saber una vez que se haya aprobado. Este proceso normalmente toma unos minutos.</string>
+    <string name="create_account">Para continuar debe crear una cuenta en Todo Salud</string>
+
+    //NIT
+    <string name="expiration">Vencimiento</string>
+    <string name="card_added_succsfully">Su tarjeta ha sido agregada exitosamente</string>
+    <string name="card_updated_succsfully">Su tarjeta fue actualizada exitosamente.</string>
+    <string name="card_deleted_succsfully">Su tarjeta fue eliminada exitosamente.</string>
+    <string name="card_already_existing">Your card already exists.</string>
+    <string name="enter_valid_card_no">Por favor ingrese un número de tarjeta válido.</string>
+    <string name="enter_valid_expire_date">Por favor, introduzca una fecha de vencimiento válida.</string>
+
+    //Reciep
+    <string name="indefinido">Indefinido</string>
+    <string name="no_product_title">Algunos productos no se venden en Todo Salud</string>
+
+    <string name="no_product_desc">Una o mas medicinas en esta receta no están en nuestra base de datos. ¿Desea llamar al call-center para verificar o desea continuar?</string>
+    <string name="no_product_call">Llamar</string>
+    <string name="no_product_continue">Continuar</string>
+
+    //side
+    <string name="under_the_care">Bajo cuidado de </string>
+    <string name="alert">Atención</string>
+    <string name="dependant_alert_desc">Ha agregado el número máximo de dependientes (6).</string>
+
+    <string name="checkout">Entrega y pago</string>
+    <string name="delivery_address">Dirección entrega</string>
+    <string name="office">Oficina</string>
+    <string name="personal">Personal</string>
+    <string name="payment_method">METODO DE PAGO</string>
+    <string name="cardNo">•••• 1243</string>
+    <string name="cash_payment">Pago en efectivo</string>
+    <string name="cash_payment_message">Si selecciona pago en efectivo no se cobrará a \n su tarjeta de crédito, sino se cobrará al \n momento de entregar el producto.</string>
+    <string name="select_shipping_address">Please select a valid shipping address</string>
+    <string name="ok">De acuerdo</string>
+    <string name="order_genarated">Pedido colocado</string>
+    <string name="order_success_message">Su pedido ha sido recibido y se procesará inmediatamente. Se entregará su producto en aproximadamente 1 hora.</string>
+    <string name="accept">ACEPTAR</string>
+    <string name="no_internet">Sin conexión a Internet</string>
+    <string name="delete_this_notification">¿Está seguro de que desea eliminar esta notificación?</string>
+    <string name="empty">vacía</string>
+    <string name="user_pin">Usar PIN</string>
+    <string name="invitation">Invitación a familia</string>
+    <string name="accpet_family_invitation">José Ramírez le acaba de enviar una invitación a ser parte de su familia en Todo Salud. Si la acepta, se compartirá su información de perfil y dependientes. ¿Desea aceptar?</string>
+    <string name="take">Tomar</string>
+    <string name="skip">Omitir</string>
+    <string name="days">Día(s)</string>
+    <string name="weeks">Semana(s)</string>
+    <string name="months">Mes(es)</string>
+    <string name="end_date_feedback">Tratamiento termina el</string>
+    <string name="select_day_from_day_selector">Seleccione los días en el selector de días</string>
+    <string name="go_to_cart">Ir a carretilla</string>
+    <string name="time_colon">Tiempo:</string>
+
+
+
+
+    <string name="recurring_warning_title">Compra recurrente no disponible</string>
+    <string name="recurring_warning_desc">Por el momento, la compra recurrente no está disponible para esta presentación de producto.</string>
+
+    <string name="pin_not_set_title">No se puede activar</string>
+    <string name="pin_not_set_desc">Para activar esta opción, debe primero configurar su PIN en opciones de seguridad.</string>
+    <string name="user_already_existing_desc">Ya existe una cuenta con este email. Por favor ingrese usando las credenciales originales. Si no recuerda su contraseña, puede reiniciarla siguiendo las instrucciones.</string>
+    <string name="user_already_exist_title">El usuario ya existe</string>
+    <string name="user_not_registered_title">Usuario no registrado</string>
+
+    <string name="share_pdf">Compartir PDF</string>
+    <string name="no_app_available">No hay aplicación disponible</string>
+    <string name="recurring_list_header">Compras Recurrentes</string>
+    <string name="recure_delete">Eliminar compra recurrente</string>
+    <string name="recure_delete_msg">¿Está seguro que desea borrar está compra recurrente? Correrá el riesgo de quedarse sin inventario y no terminar su tratamiento.</string>
+    <string name="dont_del">NO ELIMINAR</string>
+    <string name="eliminar">ELIMINAR</string>
+    <string name="puchase_more">Si, ir a la carretilla</string>
+    <string name="purcahse_msg">Hay medicinas en su botiquín que tienen programada compra recurrente y que ya necesitan mas inventario. ¿Desea proceder con la compra?</string>
+    <string name="remind_tommorow">Recordarme mañana</string>
+    <string name="zone_coverage">Zona de cobertura</string>
+
+    <string name="insurence_heading">Seguros médicos</string>
+    <string name="insurence_sub_heading">DATOS GENERALES DEL SEGURO</string>
+    <string name="policy_no">No. de póliza</string>
+    <string name="policy_name">Nombre de directiva</string>
+    <string name="rellenar">Rellenar</string>
+
+    <string name="dose_not_active">Dosis no \n activa</string>
+    <string name="dose_not_active_never">Nunca</string>
+    <string name="dose_not_active_none">ninguno</string>
+    <string name="choose_action">Elige una acción</string>
+    <string name="view_file">Ver archivo</string>
+    <string name="enable_pin">Habilite el PIN para guardar la tarjeta</string>
+    <string name="dpis">DPI</string>
+    <string name="share_news">Compartir noticias</string>
+
+    <string name="upsell">Estos productos también \npueden interesarle:</string>
+    <string name="yes_add_cart">Si, ir a la carretilla</string>
+    <string name="no_comparar">No comprar</string>
+    <string name="empty_cart_text">Aún no ha agregado \n productos a la\n carretilla</string>
+    <string name="countine_shop">BUSCAR PRODUCTOS</string>
+
+
+    <string name="prescription_expired">La prescripción está vencida.</string>
+    <string name="upload_new">Tome la fotografía de su prescripción nuevamente</string>
+
+    <string name="history">Historial</string>
+    <string name="re_purchase">VOLVER A COMPRAR</string>
+    <string name="more_info_heading">Compras recurrentes</string>
+    <string name="more_info_body">Si activa esta opción, Todo Salud le notificarátres días antes de que se acabe el inventario de esta medicina, por el periodo indicado programado.\n \nPara su comodidad, los pedidos recurrentes se despachan en horario hábil, entre semana.</string>
+    <string name="heading_pending">No marcó como tomada la dosis anterior a esta. ¿Qué desea hacer?</string>
+    <string name="prescription_necessary">Receta medica necesaria</string>
+    <string name="reason_prescription_need">Debido a las regulaciones gubernamentales, para comprar este producto debe proporcionar una receta válida. Envíe su receta aquí. Te estaremos notificando cuando el mismo haya sido aprobado."</string>
+
+    <!--New String-->
+    <string name="welcome_back">¡Bienvenido de nuevo!</string>
+    <string name="login_with_social_accounts">Iniciar sesión con cuentas sociales</string>
+    <string name="login_email_address">Dirección de correo electrónico</string>
+    <string name="or">O</string>
+    <string name="registration_enter_fields">Ingrese los campos a continuación para comenzar</string>
+    <string name="registration_first_name">Nombre de pila</string>
+    <string name="registration_last_name">Apellido</string>
+    <string name="registration_gender">Género</string>
+    <string name="registration_reenter_password">Escriba la contraseña otra vez</string>
+    <string name="registration_i_accept">Acepto</string>
+    <string name="registration_terms_and_condition">Términos y condiciones</string>
+    <string name="registration_and">, y</string>
+    <string name="registration_privacy_policy">política de privacidad</string>
+    <string name="already_have_account">¿Ya tienes una cuenta? Acceso</string>
+    <string name="otp_verification">Verificación OTP</string>
+    <string name="otp_message">Ingrese la OTP de 4 dígitos enviada </string>
+    <string name="verify">Verificar</string>
+    <string name="expiring_in">con vencimiento en</string>
+    <string name="resendOtp">Reenviar OTP</string>
+    <string name="update">Actualizar</string>
+
+    <string name="ups_no_activity_found">Ups, no se encontró actividad</string>
+    <string name="add_new_activity">Agregar nueva actividad</string>
+    <string name="morning">Mañana</string>
+    <string name="afternoon">Tarde</string>
+    <string name="professional">Profesional</string>
+    <string name="agenda">Agenda</string>
+    <string name="historical">Histórica</string>
+    <string name="menu_one_text">Dependents</string>
+    <string name="menu_two_text">Vigilante</string>
+    <string name="menu_three_text">Configuración de las notificaciones</string>
+    <string name="menu_four_text">Privacidad y seguridad</string>
+    <string name="menu_five_text">Acerca de la aplicación</string>
+    <string name="menu_six_text">Recomendar esta aplicación</string>
+    <string name="menu_seven_text">Cerrar sesión</string>
+    <string name="set_your_pin">Establece tu pin</string>
+    <string name="otp_validation">Por favor ingrese OTP</string>
+    <string name="approve">Aprobar</string>
+    <string name="deny">Denegar</string>
+    <string name="week">Semana</string>
+    <string name="month">Mes</string>
+
+
+
+
+</resources>

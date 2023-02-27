@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="BettingSignInEditText">
+        <attr name="bettingSignInEditTextHint" format="string"/>
+        <attr name="bettingSignInEditTextStartImage" format="reference|color" />
+    </declare-styleable>
+    
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#6ed6ff</color>
+    <color name="colorAccent">#1FABF4</color>
+
+    <color name="colorShadowStart">#4aa63c</color>
+    <color name="colorShadowEnd">#d9f5d4</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorLightBlack">#80000000</color>
+    <color name="colorGrey">#595858</color>
+    <color name="colorGreyBorderStroke">#efeff4</color>
+    <color name="spinner_background">#1e000000</color>
+    <color name="textColorWhite">#FFFFFF</color>
+    <color name="textColorBlack">#000000</color>
+    <color name="textColorGrey">#595858</color>
+
+    <color name="black_effective">#2a2a2a</color>
+
+    <color name="blue_text_color">#0F8DE8</color>
+    <color name="grey_text_color">#8C8C8C</color>
+    <color name="dark_grey_text_color">#404040</color>
+    <color name="grey_view_text_color">#CACACB</color>
+    <color name="grey_bg_color">#EFEFF4</color>
+    //black
+    <color name="colorMyMedicineName">#404040</color>
+    <color name="colorMyMedicineInventory">#8c8c8c</color>
+    <color name="colorOpBlack">#de000000</color>
+    <color name="colorExpired">#abb4bd</color>
+    <color name="cardBackground">#f9f9f9</color>
+
+
+    //grey
+    <color name="color_search_medicine_bg">#efeff4</color>
+    <color name="color_light_grey">#808080</color>
+    <color name="color_medium_grey">#9b9b9b</color>
+    <color name="color_divider_grey">#c8c7cc</color>
+    <color name="color_dark_grey">#727272</color>
+    <color name="color_grey">#8a8a8f</color>
+    <color name="color_gold">#FF981A</color>
+
+    //blue
+    <color name="color_tab_unselected">#801fabf4</color>
+    <color name="color_tab_selected">#1fabf4</color>
+    <color name="color_day_selected">#0f8de8</color>
+
+    //red
+    <color name="color_red">#dc4e41</color>
+    <color name="color_red_txt">#ff3b30</color>
+    <color name="color_red_txt_2">#FF2600</color>
+    <color name="color_red_new">#ff3824</color>
+
+    //green
+    <color name="color_green">#4cd964</color>
+    <color name="profile_bg">#8a8a8f</color>
+    <color name="color_expired">#abb4bd</color>
+    <color name="color_not_expired">#1FABF4</color>
+
+
+    //New colors
+    <color name="color_blue_text">#3DB0F3</color>
+    <color name="color_grey_text">#3B3B3B</color>
+    <color name="color_dark_blue_text">#043B71</color>
+    <color name="facebook_btn_color">#415FA2</color>
+    <color name="google_btn_color">#DF4A42</color>
+    <color name="view_grey_color">#D9D9D9</color>
+    <color name="hintColor">#ED2C2C2C</color>
+    <color name="sky_blue">#84CBF5</color>
+    <color name="light_blue">#1B9EEE</color>
+    <color name="transparent_color">#00FFFFFF</color>
+
+
+</resources>
